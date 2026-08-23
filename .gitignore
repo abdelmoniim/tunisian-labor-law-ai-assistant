@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Vector DB / generated indexes
+chroma_db/
+
+# Generated outputs (adjust if this should be tracked instead — see note below)
+output/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.vscode/
