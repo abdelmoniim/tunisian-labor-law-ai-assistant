@@ -111,7 +111,7 @@ cd Retrieve
 python app.py
 ```
 
-This starts a local Gradio chat interface. Ask a question in French about the Tunisian Code du Travail (e.g. *"Quelle est la durée de la période d'essai ?"*) and the assistant will answer with the article(s) it used, shown alongside the conversation.
+This starts a local Gradio chat interface. Ask a question in French about the Tunisian labor low (e.g. *"Quelle est la durée de la période d'essai ?"*) and the assistant will answer with the article(s) it used, shown alongside the conversation.
 
 ## Example
 
