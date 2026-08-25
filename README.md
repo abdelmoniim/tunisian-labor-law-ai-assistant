@@ -119,8 +119,3 @@ This starts a local Gradio chat interface. Ask a question in French about the Tu
 
 **A:** The assistant retrieves the relevant article(s) via hybrid search + reranking, then answers based only on that text, citing the article number(s) — with the cited articles and their relevance scores displayed in the sidebar.
 
-## Notes / limitations
-
-- Answers are only as good as the source PDF and the parsing/chunking step — always verify against the official text for anything consequential.
-- Currently tuned for French-language questions (the system prompt also allows Arabic).
-- `MIN_RELEVANCE_SCORE` in `generate.py` is a placeholder (`0.0`) — worth tuning once you've observed real score distributions for good vs. bad matches on your data.
