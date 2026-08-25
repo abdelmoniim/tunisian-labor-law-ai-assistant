@@ -1,4 +1,4 @@
-# ⚖️ Tunisian-labor-law-ai-assistant
+# ⚖️ Tunisian labor law ai assistant
 
 An AI assistant that answers questions about the Tunisian Labor Law (*Code du Travail*, 2016 edition) in French, grounded strictly in the official text — no external knowledge, no hallucinated articles.
 
