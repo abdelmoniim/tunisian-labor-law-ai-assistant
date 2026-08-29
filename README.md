@@ -1,8 +1,8 @@
 # ⚖️ Tunisian labor law ai assistant
 
-An AI assistant that answers questions about the Tunisian Labor Law (*Code du Travail*, 2016 edition) in French, grounded strictly in the official text — no external knowledge, no hallucinated articles.
+An AI assistant that answers questions about the Tunisian Labor Law (Code du Travail, 2016 edition) in French, grounded strictly in the official text — no external knowledge, no hallucinated articles.
 
-Built from scratch with a custom hybrid-retrieval RAG pipeline (no LangChain), as a portfolio project demonstrating retrieval-augmented generation fundamentals end to end.
+Built from scratch with a custom hybrid-retrieval RAG pipeline — deliberately without LangChain, in order to understand what happens under the hood at every stage (chunking, embeddings, hybrid retrieval, reranking, generation) — as a portfolio project demonstrating retrieval-augmented generation fundamentals end to end.
 
 > ⚠️ This is a technical demonstration project and does **not** constitute legal advice.
 
